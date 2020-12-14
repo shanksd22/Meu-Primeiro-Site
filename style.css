@@ -15,7 +15,8 @@ body {
 }
 
 a {
-    text-decoration: line-through;
+    font-weight: bold;
+    text-decoration: none;
     color: purple
 }
 
@@ -42,6 +43,12 @@ a {
 
 .post_image {
     margin-bottom: 15px;
+}
+
+.agoravai {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .contacts_list li a {
